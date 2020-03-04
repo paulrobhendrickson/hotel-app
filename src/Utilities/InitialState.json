@@ -1,0 +1,15 @@
+{
+  "hotelid": null,
+  "company": null,
+  "city": null,
+  "timezone": "US/Central",
+
+  "guestid": null,
+  "firstName": null,
+  "lastName": null,
+  "reservation": {
+    "roomNumber": null,
+    "startTimestamp": null,
+    "endTimestamp": null
+  }
+}
