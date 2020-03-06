@@ -15,11 +15,11 @@ function App() {
   const timeOfDay = today.getHours();
 
   if (timeOfDay < 12) {
-    greetingVariables.time = "morning";
+    greetingVariables.time = "Morning";
   } else if (timeOfDay < 17) {
-    greetingVariables.time = "afternoon";
+    greetingVariables.time = "Afternoon";
   } else {
-    greetingVariables.time = "evening";
+    greetingVariables.time = "Evening";
   }
 
   return (
