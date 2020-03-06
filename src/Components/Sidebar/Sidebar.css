@@ -4,6 +4,7 @@
   background-color: lightsteelblue;
   grid-column: 1;
   height: 100vh;
+  overflow-y: scroll;
 }
 
 .DropDownList {
@@ -26,3 +27,10 @@
 .dropdown-toggle {
   width: 100%;
 }
+
+.CustomTemplate {
+  width: 100%;
+  height: 400px;
+  text-overflow: clip;
+}
+

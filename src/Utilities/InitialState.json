@@ -1,20 +1,19 @@
 {
   "company": {
-    "id": null,
-    "company": null,
-    "city": null,
-    "timezone": "US/Central"
+    "id": 1,
+    "company": "Hotel California",
+    "city": "Santa Barbara",
+    "timezone": "US/Pacific"
   },
-
   "guest": {
-    "id": null,
-    "firstName": null,
-    "lastName": null,
+    "id": 1,
+    "firstName": "Candy",
+    "lastName": "Pace",
     "reservation": {
-      "roomNumber": null,
-      "startTimestamp": null,
-      "endTimestamp": null
+      "roomNumber": 529,
+      "startTimestamp": 1486654792,
+      "endTimestamp": 1486852373
     }
   },
-  "time": null
+  "time": "Morning"
 }

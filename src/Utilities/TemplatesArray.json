@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "greeting": " Good _TIME_OF_DAY_ _FIRST_NAME_, and welcome to _COMPANY_NAME_! Room _ROOM_NUMBER_ is now ready you. Enjoy your stay, and let us know if you need anything."
+  },
+  {
+    "id": 2,
+    "greeting": "Good _TIME_OF_DAY_, I am contacting you on behalf of _COMPANY_NAME_ to say we are very excited for you to stay with us. The closest parking to us is on 5th street. It's a surface lot in a very nice part of town. We look forward for your stay with us."
+  }
+]
