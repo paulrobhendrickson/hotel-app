@@ -18,7 +18,6 @@ function Sidebar({
     greeting: null
   });
 
-  const times = ["Morning", "Afternoon", "Evening"];
   return (
     <div className="Sidebar">
       <h3>Choose Greeting Variables</h3>
@@ -98,44 +97,6 @@ function Sidebar({
                       }
                     >
                       {guest.lastName + ", " + guest.firstName}
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          </div>
-        </RowCol>
-      </div>
-
-      <div className="mt-5">
-        <RowCol>{"Time: " + greetingVariables.time}</RowCol>
-        <RowCol>
-          <div className="dropdown">
-            <button
-              className="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown button
-            </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <ul className="DropDownList">
-                {times.map(time => {
-                  return (
-                    <li
-                      key={time}
-                      className="ListItem"
-                      onClick={() =>
-                        setGreetingVariables({
-                          ...greetingVariables,
-                          time: time
-                        })
-                      }
-                    >
-                      {time}
                     </li>
                   );
                 })}

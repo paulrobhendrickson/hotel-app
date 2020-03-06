@@ -11,7 +11,16 @@ function App() {
   const [templatesArray, setTemplatesArray] = useState(templatesArrayFromFile);
   const [template, setTemplate] = useState(templatesArray[0]);
 
-  console.log(template);
+  const today = new Date();
+  const timeOfDay = today.getHours();
+
+  if (timeOfDay < 12) {
+    greetingVariables.time = "morning";
+  } else if (timeOfDay < 17) {
+    greetingVariables.time = "afternoon";
+  } else {
+    greetingVariables.time = "evening";
+  }
 
   return (
     <div className="App">
