@@ -1,5 +1,8 @@
 # Kipsu Hotel App
 
+# Live Site Here:
+https://dazzling-bartik-a80be1.netlify.com/
+
 # Instructions 
 This app runs on yarn, to run the app in terminal type "yarn install." When that is finished type in "yarn start" The app was made using react and will auto-deploy to LocalHost:3000, if there is already something running on 3000 the terminal will prompt to run on a different port.
 
